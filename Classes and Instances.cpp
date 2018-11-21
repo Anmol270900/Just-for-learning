@@ -10,7 +10,7 @@ class Person{
     };
 
     Person::Person(int initialAge){
-        // Add some more code to run some checks on initialAge
+        // checks on initialAge
         age = initialAge;
         if( initialAge < 0)
         {
@@ -35,7 +35,7 @@ class Person{
        }
 
     void Person::yearPasses(){
-        // Increment the age of the person in here
+        // Increment in the age of the person
 
         age = age + 1;
 
